@@ -12,7 +12,7 @@ public class BankApplication {
     // JDBC Connector
     static private final String url = "jdbc:mysql://127.0.0.1:3306/mydb";
     static private final String userName = "root";
-    static private final String password = "java@580dbms" ;
+    static private final String password = "enterYourPassword" ;
 
     public static void main(String[] argh) {
 
@@ -376,7 +376,8 @@ public class BankApplication {
         System.out.println("Message sent Successfully!!");
         System.out.println();
     }
-
+    
+    // OTP Generator
     public static int generateOTP(String accountSid, String authToken, String mobileNumber, String twilioNumber) {
 
         int randomPin = (int) (Math.random() * 9000) + 1000;
@@ -411,4 +412,5 @@ public class BankApplication {
         System.out.println("Message sent Successfully!!");
         System.out.println();
     }
+
 }
