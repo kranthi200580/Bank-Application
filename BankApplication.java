@@ -10,7 +10,7 @@ import java.util.Scanner ;
 public class BankApplication {
 
     // JDBC Connector
-    static private final String url = "jdbc:mysql://127.0.0.1:3306/mydb";
+    static private final String url = "enterYourURL";
     static private final String userName = "root";
     static private final String password = "enterYourPassword" ;
 
@@ -414,3 +414,4 @@ public class BankApplication {
     }
 
 }
+
